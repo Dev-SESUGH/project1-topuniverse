@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+#head {
+    /* position: absolute;
+    top: 210px;
+    left: 293px; */
+    width: 854px;
+    height: 523px;
+    margin-top: 50px ;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    width: 858px;
+    height: 162px;
+    margin-top: 40px;
+    
+}
+
+#first-p {
+    Width:592px;
+    height: 68px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 32px;
+    
+}
+
+hr {
+    width: 640px;
+    list-style: 2px solid #000000;
+    margin-top: 20px;
+}
+
+h4 {
+    width: 216px;
+    height: 53px;
+    line-height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* .blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    justify-content: center;
+} */
+
+/* blog-grid1{
+    position: absolute;
+    width: 304px;
+    height: 176px;
+    left: 402px;
+    top: 1239px;
+} */
+
+.blog-grid-container1 {
+    display: grid;
+    gap: 25px;
+    place-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .blog-grid1 {
+    flex-basis: 250px;
+} */
+
+
+.child1 p {
+    width: 304px;
+    height: 176px;
+    line-height:26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.child2 p{
+    width: 304px;
+    height: 176px;
+    line-height:26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.blog-grid-container2 {
+    display: grid;
+    gap: 25px;
+    place-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.child3 p {
+    width: 304px;
+    height: 176px;
+    line-height:26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.child4 p {
+    width: 304px;
+    height: 176px;
+    line-height:26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    text-align: center;
+    
+}
